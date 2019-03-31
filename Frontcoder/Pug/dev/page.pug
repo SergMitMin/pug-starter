@@ -1,0 +1,13 @@
+extends layout/no-header
+block variables
+  - var pageTitle = "123"
+
+block content
+  h1.header This is h1 header
+  if youAreUsingPug
+    p You are amazing
+  else
+    p(class=pageTitle) Get on it!
+  p.
+    Pug is cool
+    Yeah Bitch!
